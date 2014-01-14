@@ -1,26 +1,27 @@
-<!doctype html>
-<html lang="zh-tw" ng-app>
-
-<head>
-    <meta charset="UTF-8">
-
-    <title>Course Management</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Negaihoshi">
-    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
-
-    <link href="css/uikit.gradient.min.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/uikit.min.js"></script>
-</head>
+<?php
+    include_once("indexInfo.php");
+?>
 <body>
+    <div class="ui teal inverted menu">
+        <a class="active item" href="#/">
+            <i ></i> Course Management
+        </a>
+        <a class="item" href="#/courseList">
+            <i class="search icon"></i> 課程搜尋
+        </a>
+        <a class="item">
+            <i class="user icon"></i> 講師資料
+        </a>
+        <div class="right menu">
+            <a class="item"><i class="user icon"></i> 登入 </a>
+            <a class="item"><i class="user icon"></i> 註冊 </a>
+        </div>
+    </div>
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
             <li class="uk-active"><a href="index.php">課程管理系統</a></li>
+            <li><a href="#/courseList">課程搜尋</a></li>
+            <li><a href="">講師資料</a></li>
         </ul>
 
         <div class="uk-navbar-flip">
@@ -40,14 +41,12 @@
                         echo "<li><a href='lib/logout.php'>登出</a></li>";
                     }
                 ?>
-
             </ul>
         </div>
     </nav>
 
 
-    <div id="content">
-    </div>
+    <div ng-view></div>
 
 </body>
 
