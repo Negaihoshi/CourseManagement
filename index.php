@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>CustomerManagement</title>
+    <title>Course Management</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -20,7 +20,7 @@
 <body>
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="index.php">客戶管理系統</a></li>
+            <li class="uk-active"><a href="index.php">課程管理系統</a></li>
         </ul>
 
         <div class="uk-navbar-flip">
@@ -48,13 +48,7 @@
 
     <div id="content">
     </div>
-    <!--
-    <div class="tm-footer">
-        <div class="uk-container uk-container-center uk-text-center">
-            <p>&copy; Company 2013</p>
-        </div>
-    </div>
-    -->
+
 </body>
 
 </html>
