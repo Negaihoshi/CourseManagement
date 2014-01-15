@@ -28,5 +28,9 @@
             </div>
         </div>
     </div>
-    <img src="img/Info.jpg" height="340" width="454" alt="">
+    <div>
+        <div class="ui twelve page grid">
+            <img src="img/Info.jpg" height="340" width="454" alt="">
+        </div>
+    </div>
 
