@@ -22,5 +22,7 @@
           on: 'hover'
       });
 
+      $('.ui.selection.dropdown').dropdown();
+
       $menuItem.on('click', handler.activate);
     });

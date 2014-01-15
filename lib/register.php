@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>CustomerManagement</title>
+    <title>Course Management</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -16,11 +16,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js"></script>
     <script scr="../js/uikit.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/strength.css">
+    <script src="../js/strength.min.js"></script>
 </head>
 <body>
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
-            <li class="uk-active"><a href="../index.php">客戶管理系統</a></li>
+            <li class="uk-active"><a href="../index.php">Course Management</a></li>
         </ul>
 
         <div class="uk-navbar-flip">
@@ -66,7 +68,22 @@
     </footer>
     -->
     <!-- Javascript -->
-    <script scr="js/uikit.min.js"></script>
+    <!--
+    <script>
+        $(document).ready(function ($) {
+
+            $("password").strength();
+
+        });
+        $('#password').strength({
+        strengthClass: 'strength',
+        strengthMeterClass: 'strength_meter',
+        strengthButtonClass: 'uk-button',
+        strengthButtonText: 'Show password',
+        strengthButtonTextToggle: 'Hide Password'
+    });
+    </script>
+    -->
 </body>
 
 </html>

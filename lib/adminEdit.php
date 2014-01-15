@@ -16,7 +16,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>CustomerManagement</title>
+    <title>Course Management</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -33,7 +33,7 @@
 <body ng-controller="SearchCtrl">
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
-            <li><a href="../index.php">客戶管理系統</a></li>
+            <li><a href="../index.php">Course Management</a></li>
         </ul>
 
         <div class="uk-navbar-flip">

@@ -16,13 +16,13 @@
     <!--Javascript-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/semantic.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/semantic.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-route.min.js"></script>
 
     <!--Customer-->
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/index.js"></script>
-    <script src="js/semanticCustomer.js"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="./js/index.js"></script>
+    <script src="./js/semanticCustomer.js"></script>
 </head>

@@ -1,3 +1,4 @@
+<!--
 <!doctype html>
 <html lang="zh-tw" ng-app>
 
@@ -9,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Negaihoshi">
-    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
 
     <link href="../css/uikit.gradient.min.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -17,6 +17,8 @@
     <script scr="../js/uikit.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
+-->
+<!--
 <body>
     <nav class="uk-navbar">
         <ul class="uk-navbar-nav">
@@ -30,8 +32,28 @@
             </ul>
         </div>
     </nav>
+-->
+<body>
+    <div class="ui teal inverted menu">
+        <div class="ui twelve page grid">
+            <a class="active item" href="#/">
+                <i ></i> Course Management
+            </a>
 
-    <div id="content">
+
+            <a class="item" href="#/courseList">
+                <i class="search icon"></i> 課程搜尋
+            </a>
+            <a class="item">
+                <i class="user icon"></i> 講師資料
+            </a>
+            <div class="right menu">
+                <a class="item" href="lib/login.php"><i class="user icon"></i> 登入 </a>
+                <a class="item" href="lib/login.php"><i class="user icon"></i> 註冊 </a>
+            </div>
+        </div>
+    </div>
+
         <div clss="uk-grid">
             <div class="uk-width-2-5 uk-container-center">
             <?php
@@ -43,7 +65,7 @@
                     }
                 }
             ?>
-            <form class="uk-form uk-form-horizontal" name="form" method="post" action="login_connect.php">
+            <form class="uk-form uk-form-horizontal" name="form" method="post" action="lib/login_connect.php">
                 <fieldset>
                     <legend>使用者登入</legend>
                     <div class="uk-form-row">
@@ -59,15 +81,7 @@
             </form>
             </div>
         </div>
-    </div>
 
-    <!--<footer id="footer">
-        <hr>
-        <p>&copy; Company 2013</p>
-    </footer>-->
-
-    <!-- Javascript -->
-    <script scr="js/uikit.min.js"></script>
 </body>
 
 </html>
